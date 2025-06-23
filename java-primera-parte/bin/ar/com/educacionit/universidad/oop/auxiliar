@@ -1,0 +1,45 @@
+
+
+		/*
+		 * Atributos
+		 */
+		String marca;
+		String modelo;
+		int anio;
+		String color;
+		String patente;
+
+		/*
+		 * Consttructor --- es lo primero que se ejecuta cuando nace un auto
+		 */
+		
+				
+		}
+		
+		public Auto(String marca, String modelo, int anio, String color, String patente) {
+			super();
+			this.marca = marca;
+			this.modelo = modelo;
+			this.anio = anio;
+			this.color = color;
+			this.patente = patente;
+		}
+			
+		}
+
+		/*
+		 * Metodos
+		 */
+		void acelerar() {
+			
+		
+			
+		}
+		void frenar() {
+			
+		
+			
+		}
+		void encender() {
+			
+		}
