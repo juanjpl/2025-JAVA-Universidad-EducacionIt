@@ -5,12 +5,12 @@ public class Auto {
 	/*
 	 * Atributos
 	 */
-	String marca;
-	String modelo;
-	int anio;
-	String color;
-	String patente;
-	float velocidad;
+	public String marca;
+	public String modelo;
+	public int anio;
+	public String color;
+	public String patente;
+	public float velocidad;
 	
 	
 	/*
@@ -30,9 +30,17 @@ public class Auto {
 	/*
 	 * Metodos
 	 */
-	void acelerar() {
-		
 	
+	//polimorfismo por sobrecarga con el metodo acelerar
+	//dos o mas metodos con el mismo nombre, pero distintos argumentos
+	public void acelerar() {
+		
+		this.velocidad++;
+		
+	}
+	public void acelerar(float v) {
+		
+		this.velocidad += v ;
 		
 	}
 	void frenar() {
@@ -49,6 +57,12 @@ public class Auto {
 		return "Auto [marca=" + marca + ", modelo=" + modelo + ", anio=" + anio + ", color=" + color + ", patente="
 				+ patente + ", velocidad=" + velocidad + "]";
 	}
+
+	public float getVelocidad() {
+		return velocidad;
+	}
+
+	
 	
 	//Cambiar el comportamiento por defecto
 	

@@ -1,6 +1,5 @@
 package ar.com.educacionit.universidad.oop.ecommerce;
 
-import java.util.Scanner;
 
 public class MainBuscador {
 
@@ -8,15 +7,15 @@ public class MainBuscador {
 		// TODO Auto-generated method stub
 		
 		Buscador buscador = new Buscador();
-		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Buscando....");
-		String claveBuscadaPorElUsuario = teclado.next();
+		String claveBuscadaPorElUSuario = "iron man";
 		
+		buscador.setClave(claveBuscadaPorElUSuario);
 		buscador.buscar();
 		
 		System.out.println("Hemos encontrado "+ buscador.getCantidad()+ "resultados para "+ buscador.getClave() + "");
 			
+		
 		//Recorro los resultados
 		Resultado[] res= buscador.obtenerResultados();
 		
