@@ -31,6 +31,7 @@ public class Playstation extends Consola {
 
 	}
 
+	@Override
 	public void play() {
 		System.out.println("Jugando con la Xbox 360");
 	}
