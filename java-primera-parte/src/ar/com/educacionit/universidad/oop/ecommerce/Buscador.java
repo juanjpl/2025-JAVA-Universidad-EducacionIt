@@ -43,9 +43,9 @@ public class Buscador {
 		//Simular que la consulta encuentra 3 resultados
 		//Creando 3 ojetos de la clase Resultado
 		
-		Resultado res1 = new Resultado("NEON GENESIS EVANGELION - EDICION DELUXE 1","https://acdn-us.mitiendanube.com/stores/004/088/117/products/612773-5b0931a5151f09f0f617274474760460-1024-1024.webp",8900.00f,"Yoshiyuki Sadamoto");
-		Resultado res2 = new Resultado("NEON GENESIS EVANGELION - EDICION DELUXE 2","https://acdn-us.mitiendanube.com/stores/004/088/117/products/612770-be12c618ff4f08973d17274474558359-1024-1024.webp",8900.00f,"Yoshiyuki Sadamoto");
-		Resultado res3 = new Resultado("NEON GENESIS EVANGELION - EDICION DELUXE 3","https://acdn-us.mitiendanube.com/stores/004/088/117/products/537617-18ef6e01253d250ea617273561747912-1024-1024.webp",8900.00f,"Yoshiyuki Sadamoto");
+		Resultado res1 = new Libro("NEON GENESIS EVANGELION - EDICION DELUXE 1","https://acdn-us.mitiendanube.com/stores/004/088/117/products/612773-5b0931a5151f09f0f617274474760460-1024-1024.webp",8900.00f,"Yoshiyuki Sadamoto","abc-123",100,"bla bla bla sinopsis");
+		Resultado res2 = new Musica("NEON GENESIS EVANGELION - EDICION DELUXE 2","https://acdn-us.mitiendanube.com/stores/004/088/117/products/612770-be12c618ff4f08973d17274474558359-1024-1024.webp",8900.00f,"Yoshiyuki Sadamoto","Sello discografico", new String[]{"uno","dos","tres"});
+		Resultado res3 = new Pelicula("NEON GENESIS EVANGELION - EDICION DELUXE 3","https://acdn-us.mitiendanube.com/stores/004/088/117/products/537617-18ef6e01253d250ea617273561747912-1024-1024.webp",8900.00f,"Yoshiyuki Sadamoto","Warner","Blue-Ray");
 
 		//Agregar los resultados al arraeglo
 		this.agregarResultado(res1);
