@@ -10,6 +10,10 @@ public class Result {
 	this.value = value;
 	}
 	
+	public Result(String text2, int length) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void setText(String text) {
 		if(text == null || "".equals(text.trim())) {
 			this.text = "N/A";
